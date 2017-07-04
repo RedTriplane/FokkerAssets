@@ -1,0 +1,3 @@
+include "fokker-assets-texture-api"
+include "fokker-assets-shader-api"
+include "fokker-assets-font-api"

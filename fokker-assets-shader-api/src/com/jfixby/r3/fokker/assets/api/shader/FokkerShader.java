@@ -1,29 +1,14 @@
 
 package com.jfixby.r3.fokker.assets.api.shader;
 
-import com.jfixby.scarabei.api.ComponentInstaller;
-import com.jfixby.scarabei.api.assets.ID;
+public interface FokkerShader {
 
-public class FokkerShader {
+	com.badlogic.gdx.graphics.glutils.ShaderProgram getGdxShaderProgram ();
 
-	static private ComponentInstaller<FokkerShaderComponent> componentInstaller = new ComponentInstaller<FokkerShaderComponent>(
-		"FokkerShader");
+	boolean isOverlay ();
 
-	public static final void installComponent (final FokkerShaderComponent component_to_install) {
-		componentInstaller.installComponent(component_to_install);
-	}
+	void applyParameters (ShaderParameters params);
 
-	public static final FokkerShaderComponent invoke () {
-		return componentInstaller.invokeComponent();
-	}
-
-	public static final FokkerShaderComponent component () {
-		return componentInstaller.getComponent();
-	}
-
-	public static final FokkerShaderHandler obtain (final ID assetID) {
-		return componentInstaller.getComponent().obtain(assetID);
-
-	}
+	void setOpacity (double opacity);
 
 }

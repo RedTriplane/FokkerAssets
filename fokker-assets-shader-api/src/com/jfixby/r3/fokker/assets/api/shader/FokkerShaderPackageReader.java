@@ -5,7 +5,7 @@ import com.jfixby.rana.api.loader.PackageReader;
 
 public interface FokkerShaderPackageReader {
 // public static final String PACKAGE_FORMAT_SHADER = "libGDX.Shader";
-	public static final String PACKAGE_FORMAT_SHADER = "RedTriplane.Shader";
+	public static final String PACKAGE_FORMAT = "RedTriplane.Shader";
 
 	PackageReader reader ();
 }

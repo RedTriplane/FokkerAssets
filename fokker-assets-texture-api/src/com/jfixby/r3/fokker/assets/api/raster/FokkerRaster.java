@@ -21,7 +21,7 @@ public class FokkerRaster {
 		return componentInstaller.getComponent();
 	}
 
-	public static final FokkerRasterData obtain (final ID assetID) {
+	public static final FokkerRasterHandler obtain (final ID assetID) {
 		return componentInstaller.getComponent().obtain(assetID);
 
 	}

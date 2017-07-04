@@ -7,6 +7,6 @@ public interface FokkerShaderComponent {
 
 	public FokkerShaderPackageReader packageReader ();
 
-	public FokkerShader obtain (ID assetID);
+	public FokkerShaderHandler obtain (ID assetID);
 
 }

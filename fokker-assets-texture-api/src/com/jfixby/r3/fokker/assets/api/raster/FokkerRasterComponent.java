@@ -7,6 +7,6 @@ public interface FokkerRasterComponent {
 
 	public FokkerRasterPackageReader packageReader ();
 
-	public FokkerRasterData obtain (ID assetID);
+	public FokkerRasterHandler obtain (ID assetID);
 
 }

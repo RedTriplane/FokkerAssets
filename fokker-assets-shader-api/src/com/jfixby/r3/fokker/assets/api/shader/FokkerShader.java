@@ -21,7 +21,7 @@ public class FokkerShader {
 		return componentInstaller.getComponent();
 	}
 
-	public static final FokkerShader obtain (final ID assetID) {
+	public static final FokkerShaderHandler obtain (final ID assetID) {
 		return componentInstaller.getComponent().obtain(assetID);
 
 	}

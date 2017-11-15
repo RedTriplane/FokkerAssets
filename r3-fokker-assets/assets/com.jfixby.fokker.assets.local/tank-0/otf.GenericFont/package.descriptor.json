@@ -1,10 +1,10 @@
 {
   "format": "TrueTypeFont",
   "version": "1.0",
-  "timestamp": "1501013612341",
+  "timestamp": "1510761053716",
   "root_file_name": "GenericFont.otf",
   "packed_assets": [
-    "GenericFont.otf"
+    "otf.GenericFont"
   ],
   "package_dependencies": []
 }
